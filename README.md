@@ -1,12 +1,24 @@
-# React + Vite
+# Radley Books – Product Detail Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive product detail page built with React and Vite, showcasing a book’s title, author, bio, cover image, description, prices, sale date, reviews and retailer links. Styled with SCSS and fully keyboard-navigable tabs.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[URL](https://supadu-technical.vercel.app/)
 
-## Expanding the ESLint configuration
+## With More Time
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If I had more time, here’s what I’d dive into next:
+
+### Animations
+
+**Cover fade-in** as it loads, to signal that image is ready.  
+**Tab transitions**—sliding or fading panels—to help orient the user when switching views.
+
+### Accessibility First 
+
+**Accessibility** Continue refining keyboard navigation, add comprehensive ARIA labels, and ensure all color contrast ratios meet WCAG standards.
+
+### Further Improvements  
+
+Lazy-load offscreen content to speed up initial load.  
